@@ -1,0 +1,53 @@
+# Ignore virtual environment
+medquad_env/
+
+# Ignore large files and datasets
+medical_vectorstore/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyb
+*.pyi
+*.so
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment-specific files
+.env
+.venv/
+venv/
+ENV/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.class
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.out
+*.app
+
+# Ignore logs and databases
+*.log
+*.sqlite3
+*.sqlite
+
+# Ignore large files in the medquad_env (e.g., PyTorch binaries)
+medquad_env/Lib/site-packages/torch/
