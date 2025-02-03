@@ -19,11 +19,10 @@ The project can be run in two environments:
 1. **Local Environment**
    - Suitable for development and testing
    - Requires sufficient RAM and storage
-   - GPU recommended for optimal performance
-
-2. **Kaggle Notebooks**
-   - Recommended for preprocessing and model training
-   - Provides free GPU access (T4 x2)
+   
+2. **Kaggle Notebooks (Recommended)**
+   - Recommended for speed, making vector and inference
+   - Provides free GPU access (T4 x2) for 30/hours a week
    - Better performance for compute-intensive tasks
 
 ## Requirements
@@ -48,7 +47,7 @@ langchain-google-genai
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/Biomedical_RAG_Chatbot.git
+git clone https://github.com/yf963/Biomedical_RAG_Chatbot.git
 cd Biomedical_RAG_Chatbot
 ```
 
